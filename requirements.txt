@@ -7,12 +7,9 @@ tqdm
 vocab
 revtok
 Pillow
-torch==1.2.0
-torchvision==0.4.0
-tensorboardX==1.8
-Click<7.2.0
-ai2thor==2.1.0
+Click
 transformers
+ai2thor==2.1.0
 tokenizers
 scipy
 ipython
@@ -20,13 +17,13 @@ matplotlib
 cython
 nltk
 pillow
-gym==0.15.4
+gym<0.24.0
 tqdm
 pipreqs
 h5py
 pyyaml
 pytz
-visdom
+# visdom
 pycocotools
-fast-downward @ https://github.com/MarcCote/downward/archive/faster_replan.zip
-textworld @ https://github.com/MarcCote/TextWorld/archive/handcoded_expert_integration.zip
+# fast-downward @ https://github.com/MarcCote/downward/archive/faster_replan.zip
+# -e ../TextWorld
