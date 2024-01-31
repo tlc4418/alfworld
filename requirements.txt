@@ -8,7 +8,6 @@ vocab
 revtok
 Pillow
 Click
-transformers
 ai2thor==2.1.0
 tokenizers
 scipy
